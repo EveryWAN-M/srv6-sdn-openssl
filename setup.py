@@ -21,10 +21,10 @@ setup(
     url='',  # Optional
     packages=['srv6_sdn_openssl'],  # Required
     install_requires=[
-        'setuptools',
+        'setuptools>=41.2.0',
         'six',
-        'grpcio>=1.19.0',
-        'grpcio-tools>=1.19.0',
-        'protobuf>=3.7.1'
+        'grpcio==1.36.0',
+        'grpcio-tools==1.36.0',
+        'protobuf==3.19.1'
     ]
 )
